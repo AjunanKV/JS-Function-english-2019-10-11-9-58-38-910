@@ -8,7 +8,6 @@ function reverseString(message){
     //console.log(message.charAt(i));
     output+=message.charAt(i);
   }
-  console.log(output);
   return(output);
 }
-reverseString('hello'); // should return 'olleh'
+console.log(reverseString('hello')); // should return 'olleh'
